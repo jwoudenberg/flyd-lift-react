@@ -22,7 +22,7 @@ const LiftedCounter = Lift(Counter);
 // Use it
 import { stream } from 'flyd';
 const clicks = stream();
-const value = stream([clicks], self => self(self() + 1));
+const value = stream([clicks], self => self((self() || 0) + 1));
 
 import { render } from 'react-dom';
 render(
