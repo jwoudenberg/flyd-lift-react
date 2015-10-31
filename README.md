@@ -34,4 +34,4 @@ render(
 `Lift` is a higher order React component.
 - Pass a mix of streams an ordinary values as props to your lifted component.
 - The component being lifted will only receive normal values as props.
-- If a stream updates, so so will the lifted ocomponent.
+- If a stream updates, so so will the lifted component.
