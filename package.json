@@ -1,0 +1,43 @@
+{
+  "name": "flyd-lift-react",
+  "version": "1.0.0",
+  "description": "Lift React components to take Flyd streams.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwoudenberg/flyd-lift-react.git"
+  },
+  "keywords": [
+    "flyd",
+    "react"
+  ],
+  "author": "Jasper Woudenberg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jwoudenberg/flyd-lift-react/issues"
+  },
+  "homepage": "https://github.com/jwoudenberg/flyd-lift-react#readme",
+  "peerDependencies": {
+    "react": ">=0.13.x <=0.14.x",
+    "flyd": "^0.1"
+  },
+  "devDependencies": {
+    "babel-jest": "^5.3.0",
+    "flyd": "^0.1.15",
+    "gulp": "^3.9.0",
+    "jest-cli": "^0.6.1",
+    "react": "^0.14.1",
+    "react-addons-test-utils": "^0.14.1",
+    "react-dom": "^0.14.1"
+  },
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
+    "testDirectoryName": "test",
+    "unmockedModulePathPatterns": [
+      "<rootDir>/node_modules"
+    ]
+  }
+}
