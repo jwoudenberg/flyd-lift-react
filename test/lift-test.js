@@ -33,7 +33,7 @@ describe('Lift', function () {
     expect(liftedComponentNode.textContent).toEqual('1,,foo');
   });
 
-  it.only('updates when a new value is pushed into a stream', function () {
+  it('updates when a new value is pushed into a stream', function () {
     const propStream = stream(1);
     const liftedComponent = TestUtils.renderIntoDocument(React.createElement(
       LiftedTestComponent,
