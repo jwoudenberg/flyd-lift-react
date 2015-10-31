@@ -1,4 +1,5 @@
 # Lift React Component
+[![Build status](https://img.shields.io/travis/jwoudenberg/flyd-lift-react/master.svg?style=flat-square)](https://travis-ci.org/jwoudenberg/flyd-lift-react)
 
 A higher order [React](http://facebook.github.io) component for use with [flyd](https://github.com/paldepind/flyd).
 
