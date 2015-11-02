@@ -9,7 +9,7 @@ Just look at this example:
 
 ```jsx
 // Write an ordinary React component that takes some props:
-const Counter = (value, increment) => (
+const Counter = ({value, increment}) => (
     <div onClick={increment}>
         {value}
     </div>
