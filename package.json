@@ -1,6 +1,6 @@
 {
   "name": "flyd-lift-react",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Lift React components to take Flyd streams.",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
   "homepage": "https://github.com/jwoudenberg/flyd-lift-react#readme",
   "peerDependencies": {
     "react": ">=0.13.x <=0.14.x",
-    "flyd": "^0.1"
+    "flyd": ">=0.1.x <=0.2.x"
   },
   "devDependencies": {
     "babel-jest": "^6.0.1",
