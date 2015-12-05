@@ -45,13 +45,13 @@ function mergePropertyStreams (obj) {
   var streams = Object.keys(streamsObj).map(function getStream (key) {
     return obj[key];
   });
-  var streamOfObjects = flyd.stream(streams, function buildObject () {
+  var streamOfObjects = flyd.combine(function buildObject () {
     var newObject = keys.reduce(function addValue (newObject, key) {
       var stream = streamsObj[key];
       newObject[key] = stream ? stream() : obj[key];
       return newObject;
     }, {});
     return newObject;
-  });
+  }, streams);
   return flyd.immediate(streamOfObjects);
 }
