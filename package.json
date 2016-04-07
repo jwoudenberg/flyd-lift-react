@@ -33,7 +33,7 @@
     "jest-cli": "^0.10.0",
     "react": "^0.14.1",
     "react-addons-test-utils": "^0.14.1",
-    "react-dom": "^0.14.1"
+    "react-dom": "^15.0.0"
   },
   "jest": {
     "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
