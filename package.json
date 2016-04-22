@@ -1,6 +1,6 @@
 {
   "name": "flyd-lift-react",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Lift React components to take Flyd streams.",
   "main": "src/index.js",
   "scripts": {
@@ -25,15 +25,15 @@
     "flyd": ">=0.1.x <=0.2.x"
   },
   "devDependencies": {
-    "babel-jest": "^10.0.1",
+    "babel-jest": "^11.0.0",
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-react": "^6.3.13",
     "flyd": "^0.2.0",
     "gulp": "^3.9.0",
-    "jest-cli": "^0.10.0",
-    "react": "^15.0.1",
-    "react-addons-test-utils": "^15.0.1",
-    "react-dom": "^15.0.1"
+    "jest-cli": "^11.0.0",
+    "react": "^15.0.0",
+    "react-addons-test-utils": "^15.0.0",
+    "react-dom": "^15.0.0"
   },
   "jest": {
     "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
