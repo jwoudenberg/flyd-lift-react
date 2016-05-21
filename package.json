@@ -1,6 +1,6 @@
 {
   "name": "flyd-lift-react",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Lift React components to take Flyd streams.",
   "main": "src/index.js",
   "scripts": {
