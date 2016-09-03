@@ -4,7 +4,6 @@ const React = require('react');
 const ReactDOM = require('react-dom');
 const TestUtils = require('react-addons-test-utils');
 const stream = require('flyd').stream;
-jest.dontMock('../');
 const Lift = require('../');
 
 const TestComponent = (props) => (
