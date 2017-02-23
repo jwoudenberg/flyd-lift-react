@@ -30,7 +30,7 @@
     "babel-preset-react": "^6.3.13",
     "flyd": "^0.2.0",
     "gulp": "^3.9.0",
-    "jest-cli": "^18.1.0",
+    "jest-cli": "^19.0.2",
     "react": "^15.1.0",
     "react-addons-test-utils": "^15.1.0",
     "react-dom": "^15.1.0",
